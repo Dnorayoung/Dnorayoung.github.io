@@ -1,0 +1,54 @@
+ ul li {
+    list-style: none;
+    display: inline-block;
+
+    line-height: 100px;
+}
+ul {
+
+}
+
+
+ul li a {
+    display: block;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: Arial;
+    color: green;
+    padding: 0 100px;
+    align-items: center;
+    
+
+}
+
+
+header {
+    display: flex;
+    align-items: center;
+    color: white;
+    background-size: 100%;
+    background-position: 100%;
+    text-align: center;
+    justify-content: space-between;
+    margin-right: 100;
+    
+}
+h1 {
+    font-size: 50;
+}
+h2 {
+    text-wrap: 40;
+    font-family: Arial;
+    font-size: medium;
+    margin-left: 20;
+    padding-left: 0 50;
+}
+
+
+header {
+    background-color: lightgrey; /* Set background color */
+    color: #fff; /* Set text color */
+    padding: 20px; /* Add padding for content inside header */
+    border-bottom: 2px solid red; /* Add border at the bottom */
+    border-top: 4px solid red;
+}
