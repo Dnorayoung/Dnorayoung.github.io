@@ -2,8 +2,8 @@
 header {
     display: flex;
     align-items: center;
-    background-image: url("Kitchen.jpg");
-    color: rgb(4, 0, 128);
+    background-image: url("background.jpeg");
+    color: white;
     background-size: 100%;
     background-position: 100%;
     text-align: center;
@@ -39,7 +39,7 @@ ul li a {
     text-decoration: none;
     font-size: 20px;
     font-family: Arial;
-    color: rgb(4, 0, 128);
+    color: brown;
     padding: 0 100px;
     align-items: center;
 

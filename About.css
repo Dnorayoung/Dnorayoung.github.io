@@ -14,7 +14,7 @@ ul li a {
     text-decoration: none;
     font-size: 20px;
     font-family: Arial;
-    color: green;
+    color:brown;
     padding: 0 100px;
     align-items: center;
     
@@ -51,4 +51,8 @@ header {
     padding: 20px; /* Add padding for content inside header */
     border-bottom: 2px solid red; /* Add border at the bottom */
     border-top: 4px solid red;
+}
+aboutme {
+    display: flex;
+    flex-direction: row;
 }
