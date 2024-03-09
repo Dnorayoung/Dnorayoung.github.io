@@ -1,66 +1,72 @@
 
 header {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     background-image: url("background.jpeg");
     color: white;
     background-size: 100%;
     background-position: 100%;
     text-align: center;
-    justify-content: space-between;
+    justify-content: space-between; 
     margin-right: 100;
+    padding: 10px; 
+    background-repeat: no-repeat;
 }
 
+.phone {
+    text-align: center;
+    
+
+}
 .rcorners1 {
     border-radius: 50%;
-    
 }
-
-nav {
-    width: 1700px;
-    height: 100px;
-    background-color: beige;
-    font-weight: bold;
+a {
+  color: brown;
+  text-decoration: none;
 }
-
-nav ul li {
-    list-style: none;
-    display: inline-block;
-
-    line-height: 100px;
-}
-ul {
-
-}
-
-
-ul li a {
-    display: block;
+.menu-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    list-style-type: none;
+    font-weight: 800;
+    padding-left: 0px;
+    text-align: center;
     text-decoration: none;
-    font-size: 20px;
-    font-family: Arial;
     color: brown;
-    padding: 0 100px;
-    align-items: center;
-
-}
-.bodyfont {
-    font-family: Arial;
-    justify-content: center;
-    font-size: 14;
-}
-.mainheading {
-    font-family: Arial;
-    font-size: 20;
+    font-size: 20px ;
 }
 
-kitchen {
-    background-image: url(Kitchen.jpg);
-    background-size: 100%;
-    background-position: 100%;
+  
+.image-container {
+    display: flex;
+    justify-content: space-evenly;
+  
     
+  }
+  
+  .image-wrapper {
+    position: relative;
+    margin-right: 10px; /* Adjust spacing between images */
+   
+  }
+  
+  .image{
+    width: 800px; /* Adjust image size */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 5%;
+  }
 
-    
-
-    
-}
+  
+  .bs {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 2;
+  }
+  .PC {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }

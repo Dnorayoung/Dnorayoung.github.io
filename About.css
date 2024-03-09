@@ -1,58 +1,74 @@
- ul li {
-    list-style: none;
-    display: inline-block;
 
-    line-height: 100px;
-}
-ul {
-
-}
-
-
-ul li a {
-    display: block;
-    text-decoration: none;
-    font-size: 20px;
-    font-family: Arial;
-    color:brown;
-    padding: 0 100px;
-    align-items: center;
-    
-
-}
 
 
 header {
-    display: flex;
-    align-items: center;
+    display: flex;  
+    background-image: url("background.jpeg");
     color: white;
     background-size: 100%;
     background-position: 100%;
-    text-align: center;
-    justify-content: space-between;
-    margin-right: 100;
+    background-repeat: no-repeat;
+    background-size: cover; /* Cover the entire container */
+    background-repeat: no-repeat; /* Prevent background from repeating */
+    width: 100%; /* Full width of the container */
+    height: 600px; /* Adjust height as needed */
+      }
+ 
     
-}
+
+/* .rcorners1 { 
+    border-radius: 50%;
+}*/
+
+.menu-list {
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    list-style-type: none;
+    font-weight: 800;
+    padding-left: 0px;
+    text-decoration: none;
+    color: red;
+    font-size: 20px ;
+  }
+  
+  .menu-list li {
+    display: inline-block; /* Make menu items appear in a row */
+    
+  }
+  
+  .menu-list li a {
+    text-decoration: none; /* Remove underline */
+    color: black; /* Change link color */
+  }
+  
+  .menu-bar li a:hover {
+    text-decoration: underline; /* Underline on hover */
+  }
+
+
+
 h1 {
     font-size: 50;
 }
-h2 {
-    text-wrap: 40;
-    font-family: Arial;
-    font-size: medium;
-    margin-left: 20;
-    padding-left: 0 50;
-}
 
 
-header {
-    background-color: lightgrey; /* Set background color */
-    color: #fff; /* Set text color */
-    padding: 20px; /* Add padding for content inside header */
-    border-bottom: 2px solid red; /* Add border at the bottom */
-    border-top: 4px solid red;
-}
-aboutme {
+
+
+.image-and-text {
     display: flex;
-    flex-direction: row;
-}
+    align-items: row; /* Align items vertically */
+    
+  }
+  
+  .my-photo {
+    margin-right: 20px; /* Adjust margin between image and text */
+    border-radius: 50%;
+    border: 1px solid red;
+
+  }
+  
+  .text {
+    font-size: 20px;
+  }
