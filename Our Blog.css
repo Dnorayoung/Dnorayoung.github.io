@@ -1,26 +1,16 @@
-
-
 header {
-    display: flex;
-    align-items: center;
+    display: flex;  
     background-image: url("background.jpeg");
     color: white;
     background-size: 100%;
     background-position: 100%;
-    text-align: center;
-    justify-content: space-between; 
-    margin-right: 100;
-    padding: 10px; 
-}
-  
-
-  
-
-  
+    background-repeat: no-repeat;
+    background-size: cover; /* Cover the entire container */
+    background-repeat: no-repeat; /* Prevent background from repeating */
+    width: 100%; /* Full width of the container */
+    height: 600px; /* Adjust height as needed */
+      }
  
-
-
-
 .menu-list {
     display: flex;
     flex-direction: row;
@@ -33,3 +23,32 @@ header {
     color: brown;
     font-size: 20px ;
 }
+   
+      
+
+.blogcontainer {
+display: flex;
+justify-content: space-around; /* Space items evenly along the main axis */
+}
+
+.blogbox {
+flex: 0 0 45%; /* Set width of each box */
+border: 1px solid #ccc; /* Add border around each box */
+padding: 10px; /* Add padding for spacing */
+}
+
+h2 {
+margin-top: 0; /* Remove default margin for heading */
+color: brown;
+}
+
+.article {
+margin-top: 20px; /* Add space between articles */
+border: 1px solid #ccc; /* Add border around each article box */
+padding: 10px; /* Add padding for spacing within article box */
+font-size: 20px;
+font-family: "Signika";
+font-weight: lighter;
+
+}
+      

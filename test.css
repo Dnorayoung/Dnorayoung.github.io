@@ -1,0 +1,40 @@
+.container {
+    display: flex; /* Set container as flex container */
+    justify-content: space-between; /* Distribute items evenly along the main axis with space between */
+    align-items: center; /* Center items vertically */
+    height: 100vh; /* Full height of the viewport */
+    padding: 0 20px; /* Add padding to the container */
+  }
+
+  .item {
+    flex: 0 0 auto; /* Flex-grow, flex-shrink, flex-basis */
+    text-align: center; /* Center text horizontally */
+    margin: 0 5px; /* Add margin around each item */
+  }
+
+  .item img {
+    width: 500px; /* Set width of the images */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 8px; /* Optional: add border-radius for rounded corners */
+  }
+
+  .item h2 {
+    margin-top: 10px; /* Add margin between image and header */
+  }
+  body {
+    background-color: burlywood;
+
+    .container {
+        display: flex;
+        justify-content: space-between; /* Space items evenly along the main axis */
+      }
+      .box {
+        flex: 0 0 45%; /* Set width of each box */
+        border: 1px solid #ccc; /* Add border for visual separation */
+        padding: 20px; /* Add padding for spacing */
+        margin-bottom: 20px; /* Add margin between boxes */
+      }
+      h2 {
+        margin-top: 0; /* Remove default margin for heading */
+      }
+  }

@@ -11,10 +11,15 @@ header {
     margin-right: 100;
     padding: 10px; 
     background-repeat: no-repeat;
+    font-family: "Signika";
+    font-weight: 100;
+    
+
 }
 
 .phone {
     text-align: center;
+    font-size: medium;
     
 
 }
@@ -38,35 +43,82 @@ a {
     font-size: 20px ;
 }
 
-  
-.image-container {
-    display: flex;
-    justify-content: space-evenly;
-  
+  .container {
+    display: flex; /* Set container as flex container */
+    justify-content: space-between; /* Distribute items evenly along the main axis with space between */
+    align-items: top; /* Center items vertically */
+    height: auto; /* Full height of the viewport */
+    padding: 0 20px; /* Add padding to the container */
+    padding-bottom: 5em;
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+
+  .item {
+    flex-grow: auto;/* Flex-grow, flex-shrink, flex-basis */
+    text-align: center; /* Center text horizontally */
+    margin: 0 5px; /* Add margin around each item */
+    color: brown;
+  }
+
+  .item img {
+    width: 500px; /* Set width of the images */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 8px; /* Optional: add border-radius for rounded corners */
+  }
+
+  .item h2 {
+    margin-top: 10px; /* Add margin between image and header */
+  }
+  body {
+    background-color:mistyrose;
+    font-family: "Signika";
+    font-weight: 100;
     
   }
   
-  .image-wrapper {
-    position: relative;
-    margin-right: 10px; /* Adjust spacing between images */
-   
+  .housing {
+    width: 20px;
   }
   
-  .image{
-    width: 800px; /* Adjust image size */
-    height: auto; /* Maintain aspect ratio */
-    border-radius: 5%;
+  .footer {
+    background-color: #333;
+    color: #fff;
+    padding: 1em;
+    margin-top: 1em;
+    text-align: center;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo {
+    flex: 1;    
+  }
+  
+  
+  .contact-info {
+    flex: 1;
+    text-align: center;
+  }
+  
+  .contact-info p {
+    margin: 5px 0;
+  }
+  h1 {
+    margin-bottom: 0; /* Adjust the margin of the main header */
   }
 
+    .logo img {
+      max-width: 25%; /* Ensure the logo doesn't exceed its container's width */
+      height: auto; /* Maintain the aspect ratio of the logo */
+    }
+    
+    .equal:last-child img {
+      width: 10px; /* Set the width of the second logo to 30px */
+      
+    }
   
-  .bs {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    margin-top: 2;
-  }
-  .PC {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-  }

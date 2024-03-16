@@ -30,10 +30,18 @@ header {
   font-size: 20px ;
 }
 #mybotton {
-  background-color: red;
-  color: white;
   border-radius: 10px;
   padding-bottom: 20px;
+  width: 15em;
+  height: auto;
 
 }
-
+.searchcontainer {
+  display: grid; /* Set container as flex container */
+  /* justify-content: ; Distribute items evenly along the main axis with space between */
+    align-items: top; /* Center items vertically */
+    height: auto; /* Full height of the viewport */
+    padding: 0 20px 5em; /* Add padding to the container */
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
