@@ -26,7 +26,7 @@ header {
   font-weight: 800;
   padding-left: 0px;
   text-decoration: none;
-  color: red;
+  color: #8e6f5b;;
   font-size: 20px ;
 }
 #mybotton {
@@ -44,4 +44,6 @@ header {
     padding: 0 20px 5em; /* Add padding to the container */
     margin-top: 10px;
     margin-bottom: 20px;
+    color: #9a7661;
+    font-weight: lighter;
 }

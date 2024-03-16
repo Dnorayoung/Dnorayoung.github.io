@@ -27,7 +27,7 @@ header {
     border-radius: 50%;
 }
 a {
-  color: brown;
+  color: #8e6f5b;
   text-decoration: none;
 }
 .menu-list {
@@ -39,7 +39,7 @@ a {
     padding-left: 0px;
     text-align: center;
     text-decoration: none;
-    color: brown;
+    color: gray;
     font-size: 20px ;
 }
 
@@ -58,7 +58,7 @@ a {
     flex-grow: auto;/* Flex-grow, flex-shrink, flex-basis */
     text-align: center; /* Center text horizontally */
     margin: 0 5px; /* Add margin around each item */
-    color: brown;
+    color: #8e6f5b;
   }
 
   .item img {
@@ -71,7 +71,7 @@ a {
     margin-top: 10px; /* Add margin between image and header */
   }
   body {
-    background-color:mistyrose;
+    background-color:#fff6e3;
     font-family: "Signika";
     font-weight: 100;
     

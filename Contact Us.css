@@ -1,0 +1,61 @@
+
+header {
+    display: flex;  
+    background-image: url("background.jpeg");
+    background-clip: padding-box;
+    color: white;
+    background-size: 100%;
+    background-position: 100%;
+    background-repeat: no-repeat;
+    background-size: cover; /* Cover the entire container */
+    background-repeat: no-repeat; /* Prevent background from repeating */
+    width: 100%; /* Full width of the container */
+    height: 600px; /* Adjust height as needed */
+      }
+ 
+    
+
+/* .rcorners1 { 
+    border-radius: 50%;
+}*/
+
+.menu-list {
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    list-style-type: none;
+    font-weight: 800;
+    padding-left: 0px;
+    text-decoration: none;
+    font-size: 20px ;
+  }
+  
+  .menu-list li {
+    display: inline-block; /* Make menu items appear in a row */
+    
+  }
+  
+  .menu-list li a {
+    text-decoration: none; /* Remove underline */
+    color: black; /* Change link color */
+  }
+  
+  .menu-bar li a:hover {
+    text-decoration: underline; /* Underline on hover */
+  }
+
+
+
+h1 {
+    font-size: 50;
+}
+.contact-form {
+   color: #8e6f5b;
+}
+.contact-info{
+    color: #9a7661;
+}
+
+
+
